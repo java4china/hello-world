@@ -1,0 +1,24 @@
+1.account/password/add 添加 支付密码
+ 参数：userId，payPassword
+ 结果：0添加成功 1参数错误
+2.account/password/check 检查支付密码
+ 参数：userId， payPassword
+ 结果：0校验成功 1校验失败
+
+3.account/password/sms
+ 参数：account 手机号码：
+ 结果： 0: 发送成功
+	2:已经发送	
+	3:短信服务器错误
+	1:发送出错
+4.account/password/find 找回密码
+参数：userId ，payPassword，account手机号，captcha验证码
+结果：
+      0:成功
+      1：参数错误
+      4：验证码过期
+      5. 短信服务器错误
+
+
+
+5.姓名 地址 电话 身份证号等
